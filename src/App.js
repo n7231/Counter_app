@@ -13,14 +13,23 @@ class App extends Component {
   };
   render () {
     return(
+      <body>
       <div>
-        <div className="col-6 left">
+        <div class="wrapper">
+    <div data-reactroot>
+      <div class="container">
+          
         <h2> counter app </h2>
          <button onClick={this.increment}> 
           clicked  {this.state.count} times 
           </button>
           </div>
+          
           </div>
+          
+          </div>
+          </div>
+          </body>
     );
   }
     
