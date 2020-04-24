@@ -1,6 +1,5 @@
 import React , {Component} from 'react' 
 
-
 class App extends Component {
   state = {  
     count: 0
@@ -13,28 +12,17 @@ class App extends Component {
   };
   render () {
     return(
-      <body>
-      <div>
-        <div class="wrapper">
-    <div data-reactroot>
-      <div class="container">
-          
-        <h2> counter app </h2>
-         <button onClick={this.increment}> 
+      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
+ 
+     <h1> counter app </h1>
+      <button onClick={this.increment} > 
           clicked  {this.state.count} times 
           </button>
-          </div>
+          </div> 
           
-          </div>
-          
-          </div>
-          </div>
-          </body>
     );
-  }
-    
-}
-
-
+  };      
+  };
+  
 export default App;
 
