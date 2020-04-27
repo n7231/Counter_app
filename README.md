@@ -1,5 +1,8 @@
--Normal counting app.
--Some progress done.
+Counter App
+-I have been using here React hooks for practise. 
+
+
+
 To run the project:
 .Clone from github
 .npm install
