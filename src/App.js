@@ -19,8 +19,8 @@ return(
 
  <h1> counter app </h1>
  
-  <button onClick={increment} > 
-      clicked  {count} times </button>
+  <Button color="primary" onClick={increment} > 
+      clicked  {count} times </Button>
       </div> 
       
 )
