@@ -19,7 +19,7 @@ return(
 
  <h1> counter app </h1>
  
-  <Button color="primary" onClick={increment} > 
+  <Button  variant="contained" color="primary"onClick={increment} > 
       clicked  {count} times </Button>
       </div> 
       
